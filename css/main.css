@@ -1,0 +1,36 @@
+/* My own CSS */
+
+/* Body */
+body {
+ background-color:#2c2d2d;
+}
+
+/* Jumbotron */
+.jumbotron h1 {
+	padding-bottom:40px;
+	color:white;
+}
+
+.jumbotron {
+	background-color:#4a515b;
+}
+
+/*Textstandard*/
+h1, h2, h3, h4, h5, h6, p {
+	color:white;
+}
+
+/*Class for easy text-alignment*/
+.center {
+	text-align:center;
+}
+
+/*Image of me*/
+#me {
+	width:240px;
+	height:425;
+}
+
+.footer .container {
+	font-size:12px;
+}
