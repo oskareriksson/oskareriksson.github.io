@@ -14,62 +14,90 @@
 <body>
 	<!--Jumbotron with navigation, common for all pages.-->
 	<div class="jumbotron center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Oskar Erikssons DPY</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-3">
+					<a href="index.html"><button class="btn btn-default">Hem</button></a>
+				</div>
+
+				<div class="col-md-3 col-sm-3">
+					<a href="resource.html"><button class="btn btn-default">Resurser</button></a>
+				</div>
+
+				<div class="col-md-3 col-sm-3">
+					<a href="about.html"><button class="btn btn-default">Om mig</button></a>
+				</div>
+
+				<div class="col-md-3 col-sm-3">
+					<a href="contact.html"><button class="btn btn-default">Kontakt</button></a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!--Rows with categories and dropdowns which links my projects.-->
+	<div class="container">	
 		<div class="row">
-			<div class="col-xs-12">
-				<h1>Oskar Erikssons DPY</h1>
+			<div class="col-md-6 center">
+				<h2>HTML/CSS Projekt:</h2>
+			</div>
+
+			<div class="col-md-6 center">
+				<div class="btn-group">
+		            <button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle">
+		            	Projekt <span class="caret"></span>
+		            </button>
+		        	<ul class="dropdown-menu">
+		                <li><a href="https://github.com/oskareriksson/lulea-project" target="_blank">Luleå-projekt</a></li>
+            		</ul>
+        		</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-3">
-				<a href="index.html"><button class="btn btn-default">Hem</button></a>
+			<div class="col-md-6 center">
+				<h2>JavaScript Projekt:</h2>
 			</div>
 
-			<div class="col-md-3">
-				<a href="resource.html"><button class="btn btn-default">Resurser</button></a>
+			<div class="col-md-6 center">
+				<div class="btn-group">
+		            <button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle">
+		            	Projekt <span class="caret"></span>
+		            </button>
+		        	<ul class="dropdown-menu">
+		                <li><a href="#" target="_blank">Coming Soon</a></li>
+            		</ul>
+        		</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 center">
+				<h2>Andra roliga projekt:</h2>
 			</div>
 
-			<div class="col-md-3">
-				<a href="about.html"><button class="btn btn-default">Om mig</button></a>
-			</div>
-
-			<div class="col-md-3">
-				<a href="contact.html"><button class="btn btn-default">Kontakt</button></a>
+			<div class="col-md-6 center">
+				<div class="btn-group">
+		            <button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle">
+		            	Projekt <span class="caret"></span>
+		            </button>
+		        	<ul class="dropdown-menu">
+		                <li><a href="https://github.com/oskareriksson/a-tale-to-learn-by-oskar-eriksson-yhjust16" target="_blank">
+		                Git uppgift</a>
+		                </li>
+            		</ul>
+        		</div>
 			</div>
 		</div>
 	</div>
 
-	<!--Rows with categories about my projects.-->
-	<div class="row">
-		<div class="col-md-6 center">
-			<h2>HTML/CSS Projekt:</h2>
-		</div>
-
-		<div class="col-md-6 center">
-			<h3><a href="https://github.com/Orkecode/lulea-project">Luleå-projekt</a></h3>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-6 center">
-			<h2>JavaScript Projekt:</h2>
-		</div>
-
-		<div class="col-md-6 center">
-			<h3><em>Coming soon</em></h3>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-6 center">
-			<h2>Andra roliga projekt:</h2>
-		</div>
-
-		<div class="col-md-6 center">
-			<h3><em>Coming soon</em></h3>
-		</div>
-	</div>
-
+	<!--Footer-->
 	<footer class="footer">
 		<div class="container center">
 			<p>&copy; Oskar Eriksson</p>

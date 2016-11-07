@@ -1,0 +1,11 @@
+Changelog:
+
++ Made sure to place all rows withing containers for proper column sizes.
+
++ Added dropdown functionality under resources page for better structure.
+
++ Rounded the image a little in the about page.
+
++ Made small changes of the text withing the about page.
+
++ Added email glyphicon under contact page.
